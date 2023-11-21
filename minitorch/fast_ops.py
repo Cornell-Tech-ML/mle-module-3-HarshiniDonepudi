@@ -275,7 +275,7 @@ def tensor_reduce(
             out[o] = temp
 
     return njit(parallel=True)(_reduce)  # type: ignore
-        # raise NotImplementedError("Need to implement for Task 3.1")
+    # raise NotImplementedError("Need to implement for Task 3.1")
 
     return njit(parallel=True)(_reduce)  # type: ignore
 

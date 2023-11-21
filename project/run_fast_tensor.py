@@ -8,12 +8,14 @@ FastTensorBackend = minitorch.TensorBackend(minitorch.FastOps)
 if numba.cuda.is_available():
     GPUBackend = minitorch.TensorBackend(minitorch.CudaOps)
 
+
 def default_log_fn(epoch, total_loss, correct, losses, epoch_time):
     print(f"Epoch {epoch}, Time: {epoch_time:.4f}s, Loss: {total_loss}, Correct: {correct}")
 
 def RParam(*shape, backend):
     r = minitorch.rand(shape, backend=backend) - 0.5
     return minitorch.Parameter(r)
+
 
 class Network(minitorch.Module):
     def __init__(self, hidden, backend):
@@ -121,7 +123,5 @@ if __name__ == "__main__":
     HIDDEN = int(args.HIDDEN)
     RATE = args.RATE
 
-    FastTrain(
-        HIDDEN, backend=FastTensorBackend if args.BACKEND != "gpu" else GPUBackend
+    FastTrain(HIDDEN, backend=FastTensorBackend if args.BACKEND != "gpu" else GPUBackend
     ).train(data, RATE)
-
