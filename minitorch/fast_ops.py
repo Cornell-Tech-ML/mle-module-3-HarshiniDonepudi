@@ -10,7 +10,7 @@ from .tensor_data import (
     broadcast_index,
     index_to_position,
     shape_broadcast,
-    to_index,
+    to_index
 )
 from .tensor_ops import MapProto, TensorOps
 
@@ -18,7 +18,7 @@ if TYPE_CHECKING:
     from typing import Callable, Optional
 
     from .tensor import Tensor
-    from .tensor_data import Index, Shape, Storage, Strides
+    from .tensor_data import Shape, Storage, Strides
 
 # TIP: Use `NUMBA_DISABLE_JIT=1 pytest tests/ -m task3_1` to run these tests without JIT.
 
@@ -160,14 +160,18 @@ def tensor_map(
         in_strides: Strides,
     ) -> None:
         # TODO: Implement for Task 3.1
-        for i in prange(len(out)):
-            out_index = np.zeros(MAX_DIMS, np.int32)
-            in_index = np.zeros(MAX_DIMS, np.int32)
-            to_index(i, out_shape, out_index)
-            broadcast_index(out_index, out_shape, in_shape, in_index)
-            data = in_storage[index_to_position(in_index, in_strides)]
-            map_data = fn(data)
-            out[index_to_position(out_index, out_strides)] = map_data
+        if list(in_shape) == list(out_shape) and list(in_strides) == list(out_strides):
+            for i in prange(len(out)):
+                out[i] = fn(in_storage[i])
+        else:
+            for i in prange(len(out)):
+                out_index = np.zeros(MAX_DIMS, np.int32)
+                in_index = np.zeros(MAX_DIMS, np.int32)
+                to_index(i, out_shape, out_index)
+                broadcast_index(out_index, out_shape, in_shape, in_index)
+                data = in_storage[index_to_position(in_index, in_strides)]
+                map_data = fn(data)
+                out[index_to_position(out_index, out_strides)] = map_data
 
         # raise NotImplementedError("Need to implement for Task 3.1")
 
@@ -208,17 +212,21 @@ def tensor_zip(
         b_strides: Strides,
     ) -> None:
         # TODO: Implement for Task 3.1.
-        for i in prange(len(out)):
-            a_index = np.zeros(MAX_DIMS, np.int32)
-            b_index = np.zeros(MAX_DIMS, np.int32)
-            o_index = np.zeros(MAX_DIMS, np.int32)
-            to_index(i, out_shape, o_index)
-            broadcast_index(o_index, out_shape, a_shape, a_index)
-            broadcast_index(o_index, out_shape, b_shape, b_index)
-            a_data = a_storage[index_to_position(a_index, a_strides)]
-            b_data = b_storage[index_to_position(b_index, b_strides)]
-            map_data = fn(a_data, b_data)
-            out[index_to_position(o_index, out_strides)] = map_data
+        if list(a_strides) == list(b_strides) == list(out_strides) and list(a_shape) == list(b_shape) == list(out_shape):
+            for i in prange(len(out)):
+                out[i] = fn(a_storage[i], b_storage[i])
+        else:
+            for i in prange(len(out)):
+                a_index = np.zeros(MAX_DIMS, np.int32)
+                b_index = np.zeros(MAX_DIMS, np.int32)
+                o_index = np.zeros(MAX_DIMS, np.int32)
+                to_index(i, out_shape, o_index)
+                broadcast_index(o_index, out_shape, a_shape, a_index)
+                broadcast_index(o_index, out_shape, b_shape, b_index)
+                a_data = a_storage[index_to_position(a_index, a_strides)]
+                b_data = b_storage[index_to_position(b_index, b_strides)]
+                map_data = fn(a_data, b_data)
+                out[index_to_position(o_index, out_strides)] = map_data
         # raise NotImplementedError("Need to implement for Task 3.1")
 
     return njit(parallel=True)(_zip)  # type: ignore
@@ -265,6 +273,8 @@ def tensor_reduce(
             for s in range(reduce_size):
                 temp = fn(temp, a_storage[a + s * reduce_original])
             out[o] = temp
+
+    return njit(parallel=True)(_reduce)  # type: ignore
         # raise NotImplementedError("Need to implement for Task 3.1")
 
     return njit(parallel=True)(_reduce)  # type: ignore
