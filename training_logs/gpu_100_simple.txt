@@ -1,0 +1,582 @@
+!cd $DIR; PYTHONPATH=/content/$DIR python3.8 project/run_fast_tensor.py --BACKEND gpu --HIDDEN 100 --DATASET simple --RATE 0.05
+
+/bin/bash: line 1: cd: mle-module-3-HarshiniDonepudi: No such file or directory
+/usr/local/lib/python3.8/dist-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 1 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/cudadrv/devicearray.py:886: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 7 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/cudadrv/devicearray.py:886: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 4 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 1 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/cudadrv/devicearray.py:886: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 7 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 4 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/cudadrv/devicearray.py:886: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 32 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/cudadrv/devicearray.py:886: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 32 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 4 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 1 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/cudadrv/devicearray.py:886: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 1 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/cudadrv/devicearray.py:886: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 1 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/cudadrv/devicearray.py:886: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 1 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/cudadrv/devicearray.py:886: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 1 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/cudadrv/devicearray.py:886: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 1 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/cudadrv/devicearray.py:886: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 4 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 32 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/cudadrv/devicearray.py:886: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 100 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 16 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 7 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 4 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 8 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 2 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/cudadrv/devicearray.py:886: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 2 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/cudadrv/devicearray.py:886: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 2 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+Epoch 0, Time: 7.9389s, Loss: 7.123043812534172, Correct: 31
+Epoch 1, Time: 3.4961s, Loss: 6.077284124385592, Correct: 42
+Epoch 2, Time: 2.0563s, Loss: 4.821780320112097, Correct: 43
+Epoch 3, Time: 2.4490s, Loss: 4.742119730849817, Correct: 42
+Epoch 4, Time: 4.0001s, Loss: 3.83680407763245, Correct: 46
+Epoch 5, Time: 3.7165s, Loss: 2.212552318773735, Correct: 47
+Epoch 6, Time: 3.2582s, Loss: 4.350558675224423, Correct: 44
+Epoch 7, Time: 3.3924s, Loss: 3.7893321711346317, Correct: 44
+Epoch 8, Time: 3.4770s, Loss: 2.672662037166142, Correct: 49
+Epoch 9, Time: 2.4541s, Loss: 1.0325612211034894, Correct: 49
+Epoch 10, Time: 1.9633s, Loss: 3.1947412229735006, Correct: 49
+Epoch 11, Time: 2.0254s, Loss: 2.7791535266820677, Correct: 46
+Epoch 12, Time: 1.9523s, Loss: 2.125006427326507, Correct: 49
+Epoch 13, Time: 1.9332s, Loss: 2.5427084267841087, Correct: 50
+Epoch 14, Time: 2.7286s, Loss: 2.215657492688948, Correct: 49
+Epoch 15, Time: 3.1815s, Loss: 1.3999328813690228, Correct: 50
+Epoch 16, Time: 3.3993s, Loss: 1.8820790267403782, Correct: 50
+Epoch 17, Time: 3.5857s, Loss: 1.3101305298359336, Correct: 50
+Epoch 18, Time: 2.4275s, Loss: 1.5307426761518406, Correct: 50
+Epoch 19, Time: 1.9809s, Loss: 1.2745600513777258, Correct: 50
+Epoch 20, Time: 2.0497s, Loss: 1.38178305266669, Correct: 50
+Epoch 21, Time: 1.9934s, Loss: 1.0839705974981297, Correct: 50
+Epoch 22, Time: 1.9746s, Loss: 0.6380629118049107, Correct: 50
+Epoch 23, Time: 2.7729s, Loss: 1.0426918698640504, Correct: 50
+Epoch 24, Time: 3.2115s, Loss: 2.148838859832794, Correct: 50
+Epoch 25, Time: 3.4384s, Loss: 1.4049922603729144, Correct: 50
+Epoch 26, Time: 3.4281s, Loss: 0.8026978372989136, Correct: 50
+Epoch 27, Time: 2.4251s, Loss: 1.297160443481045, Correct: 50
+Epoch 28, Time: 2.0078s, Loss: 0.9578758747718386, Correct: 50
+Epoch 29, Time: 1.9758s, Loss: 1.2916919909081324, Correct: 50
+Epoch 30, Time: 2.0532s, Loss: 0.6456021837380987, Correct: 50
+Epoch 31, Time: 1.9795s, Loss: 0.6900919125804063, Correct: 50
+Epoch 32, Time: 2.7756s, Loss: 0.719254742278369, Correct: 50
+Epoch 33, Time: 3.2768s, Loss: 1.4715345185874735, Correct: 50
+Epoch 34, Time: 3.9183s, Loss: 0.6523036582393484, Correct: 50
+Epoch 35, Time: 3.9342s, Loss: 0.28372310967185443, Correct: 50
+Epoch 36, Time: 2.0686s, Loss: 0.4704294206571947, Correct: 50
+Epoch 37, Time: 2.2155s, Loss: 1.249078498672063, Correct: 50
+Epoch 38, Time: 1.9367s, Loss: 0.25848653259013515, Correct: 50
+Epoch 39, Time: 2.0114s, Loss: 1.1311661507117885, Correct: 50
+Epoch 40, Time: 2.3564s, Loss: 0.9526330643393534, Correct: 50
+Epoch 41, Time: 2.9763s, Loss: 0.579811042151697, Correct: 50
+Epoch 42, Time: 3.4738s, Loss: 0.6639968985682589, Correct: 50
+Epoch 43, Time: 3.3773s, Loss: 0.7483802668110415, Correct: 50
+Epoch 44, Time: 3.1432s, Loss: 0.4552522112959798, Correct: 50
+Epoch 45, Time: 2.0725s, Loss: 1.1573551346590563, Correct: 50
+Epoch 46, Time: 1.9590s, Loss: 0.5236318188998337, Correct: 50
+Epoch 47, Time: 1.9578s, Loss: 0.44153699505112354, Correct: 50
+Epoch 48, Time: 2.0296s, Loss: 0.5813945691629933, Correct: 50
+Epoch 49, Time: 2.2592s, Loss: 0.976571871724323, Correct: 50
+Epoch 50, Time: 2.9699s, Loss: 0.909971958409422, Correct: 50
+Epoch 51, Time: 3.5420s, Loss: 0.7159820856802066, Correct: 50
+Epoch 52, Time: 3.3647s, Loss: 0.6113358516583223, Correct: 50
+Epoch 53, Time: 3.0864s, Loss: 0.7575024338396403, Correct: 50
+Epoch 54, Time: 2.0077s, Loss: 0.760223757018899, Correct: 50
+Epoch 55, Time: 1.9867s, Loss: 0.2515738239380654, Correct: 50
+Epoch 56, Time: 2.0154s, Loss: 0.3534261979804606, Correct: 50
+Epoch 57, Time: 2.0533s, Loss: 0.4297874378886994, Correct: 50
+Epoch 58, Time: 2.2868s, Loss: 0.24785307568638898, Correct: 50
+Epoch 59, Time: 2.9226s, Loss: 0.14706958429202857, Correct: 50
+Epoch 60, Time: 3.5193s, Loss: 0.8472879692557834, Correct: 50
+Epoch 61, Time: 3.4162s, Loss: 0.9573853469342626, Correct: 50
+Epoch 62, Time: 3.1051s, Loss: 0.25635053774878835, Correct: 50
+Epoch 63, Time: 2.0217s, Loss: 0.8686037403092922, Correct: 50
+Epoch 64, Time: 1.9617s, Loss: 0.6392311311763287, Correct: 50
+Epoch 65, Time: 1.9754s, Loss: 0.3745351918533104, Correct: 50
+Epoch 66, Time: 1.9900s, Loss: 0.512201499681625, Correct: 50
+Epoch 67, Time: 2.4008s, Loss: 0.37297104848795776, Correct: 50
+Epoch 68, Time: 3.0078s, Loss: 0.2732167889287911, Correct: 50
+Epoch 69, Time: 3.4211s, Loss: 0.4684894590023774, Correct: 50
+Epoch 70, Time: 3.4664s, Loss: 0.5631296408480986, Correct: 50
+Epoch 71, Time: 3.0125s, Loss: 0.1229766056170917, Correct: 50
+Epoch 72, Time: 1.9642s, Loss: 0.48260360008185366, Correct: 50
+Epoch 73, Time: 2.0389s, Loss: 0.4752645866893349, Correct: 50
+Epoch 74, Time: 2.4366s, Loss: 0.2224319530650733, Correct: 50
+Epoch 75, Time: 2.9871s, Loss: 0.5800173547962266, Correct: 50
+Epoch 76, Time: 3.5172s, Loss: 0.1542872130874306, Correct: 50
+Epoch 77, Time: 3.4982s, Loss: 0.4405903251944445, Correct: 50
+Epoch 78, Time: 3.5851s, Loss: 0.44508157936036163, Correct: 50
+Epoch 79, Time: 3.4593s, Loss: 0.17405013013015083, Correct: 50
+Epoch 80, Time: 2.2749s, Loss: 0.30909148253918406, Correct: 50
+Epoch 81, Time: 1.9515s, Loss: 0.5682032529488552, Correct: 50
+Epoch 82, Time: 2.0098s, Loss: 0.3143588033541766, Correct: 50
+Epoch 83, Time: 1.9664s, Loss: 0.5000630492031364, Correct: 50
+Epoch 84, Time: 1.9980s, Loss: 0.273437205858019, Correct: 50
+Epoch 85, Time: 3.0494s, Loss: 0.41522204444358635, Correct: 50
+Epoch 86, Time: 3.2258s, Loss: 0.5817244559712101, Correct: 50
+Epoch 87, Time: 3.3907s, Loss: 0.3653631260783016, Correct: 50
+Epoch 88, Time: 3.4844s, Loss: 0.5192329302910004, Correct: 50
+Epoch 89, Time: 2.2570s, Loss: 0.5492484479300493, Correct: 50
+Epoch 90, Time: 1.9934s, Loss: 0.06252872802286044, Correct: 50
+Epoch 91, Time: 2.0185s, Loss: 0.18786131465750716, Correct: 50
+Epoch 92, Time: 1.9441s, Loss: 0.4040319455062886, Correct: 50
+Epoch 93, Time: 1.9493s, Loss: 0.6433214328156345, Correct: 50
+Epoch 94, Time: 2.9610s, Loss: 0.10956148073183596, Correct: 50
+Epoch 95, Time: 3.2912s, Loss: 0.07084998764366439, Correct: 50
+Epoch 96, Time: 3.4197s, Loss: 0.1255458051757525, Correct: 50
+Epoch 97, Time: 3.4767s, Loss: 0.2674383760579975, Correct: 50
+Epoch 98, Time: 2.1795s, Loss: 0.16658921962648401, Correct: 50
+Epoch 99, Time: 1.9636s, Loss: 0.18814264965678404, Correct: 50
+Epoch 100, Time: 2.0186s, Loss: 0.06743735803660549, Correct: 50
+Epoch 101, Time: 1.9808s, Loss: 0.2525184217350438, Correct: 50
+Epoch 102, Time: 1.9054s, Loss: 0.11123284941736875, Correct: 50
+Epoch 103, Time: 2.8552s, Loss: 0.3646379028867464, Correct: 50
+Epoch 104, Time: 3.1632s, Loss: 0.06251349409919604, Correct: 50
+Epoch 105, Time: 3.4232s, Loss: 0.13833140712865294, Correct: 50
+Epoch 106, Time: 3.4118s, Loss: 0.10361830849315735, Correct: 50
+Epoch 107, Time: 2.4374s, Loss: 0.2111149417466706, Correct: 50
+Epoch 108, Time: 1.9843s, Loss: 0.5296038581974891, Correct: 50
+Epoch 109, Time: 2.1224s, Loss: 0.4347942595238689, Correct: 50
+Epoch 110, Time: 2.1225s, Loss: 0.1830507244019728, Correct: 50
+Epoch 111, Time: 1.9981s, Loss: 0.24064139487023656, Correct: 50
+Epoch 112, Time: 2.9464s, Loss: 0.07360663252317878, Correct: 50
+Epoch 113, Time: 3.3499s, Loss: 0.15518297258835012, Correct: 50
+Epoch 114, Time: 3.3911s, Loss: 0.28181957212294684, Correct: 50
+Epoch 115, Time: 3.4599s, Loss: 0.4211519506228216, Correct: 50
+Epoch 116, Time: 2.1757s, Loss: 0.1803109836100099, Correct: 50
+Epoch 117, Time: 1.9545s, Loss: 0.7094907996435024, Correct: 50
+Epoch 118, Time: 1.9749s, Loss: 0.18053966696005647, Correct: 50
+Epoch 119, Time: 2.0731s, Loss: 0.4760851362679396, Correct: 50
+Epoch 120, Time: 2.0383s, Loss: 0.35225045326617516, Correct: 50
+Epoch 121, Time: 3.0076s, Loss: 0.30119439437407564, Correct: 50
+Epoch 122, Time: 3.4361s, Loss: 0.02843445976570242, Correct: 50
+Epoch 123, Time: 3.3619s, Loss: 0.20983451210195758, Correct: 50
+Epoch 124, Time: 3.3920s, Loss: 0.15788312326025, Correct: 50
+Epoch 125, Time: 2.0829s, Loss: 0.5702457045046628, Correct: 50
+Epoch 126, Time: 1.9964s, Loss: 0.44487571248810853, Correct: 50
+Epoch 127, Time: 1.9491s, Loss: 0.08269489491282415, Correct: 50
+Epoch 128, Time: 2.0584s, Loss: 0.22022895860961808, Correct: 50
+Epoch 129, Time: 2.0483s, Loss: 0.22286914531979507, Correct: 50
+Epoch 130, Time: 2.9875s, Loss: 0.20759027760064752, Correct: 50
+Epoch 131, Time: 3.5012s, Loss: 0.4082961007999471, Correct: 50
+Epoch 132, Time: 3.4016s, Loss: 0.15583957436636087, Correct: 50
+Epoch 133, Time: 3.3670s, Loss: 0.01301886984050642, Correct: 50
+Epoch 134, Time: 2.0229s, Loss: 0.17712854276323345, Correct: 50
+Epoch 135, Time: 1.9934s, Loss: 0.18619955170850627, Correct: 50
+Epoch 136, Time: 2.0080s, Loss: 0.2446872957102798, Correct: 50
+Epoch 137, Time: 2.0203s, Loss: 0.052923666226888065, Correct: 50
+Epoch 138, Time: 2.0883s, Loss: 0.26938635623788754, Correct: 50
+Epoch 139, Time: 2.9390s, Loss: 0.20996701889742178, Correct: 50
+Epoch 140, Time: 3.4271s, Loss: 0.0821887919636898, Correct: 50
+Epoch 141, Time: 3.5363s, Loss: 0.2588728291754883, Correct: 50
+Epoch 142, Time: 3.2995s, Loss: 0.28033666046398226, Correct: 50
+Epoch 143, Time: 1.9926s, Loss: 0.3576700414788504, Correct: 50
+Epoch 144, Time: 1.9339s, Loss: 0.2908512730153918, Correct: 50
+Epoch 145, Time: 1.9422s, Loss: 0.13281963566887295, Correct: 50
+Epoch 146, Time: 1.9617s, Loss: 0.23002246193838108, Correct: 50
+Epoch 147, Time: 2.2612s, Loss: 0.2756555679759956, Correct: 50
+Epoch 148, Time: 2.9888s, Loss: 0.17342470131287058, Correct: 50
+Epoch 149, Time: 3.7964s, Loss: 0.2319172710921784, Correct: 50
+Epoch 150, Time: 3.4719s, Loss: 0.09718253940300724, Correct: 50
+Epoch 151, Time: 3.1641s, Loss: 0.3178238440611177, Correct: 50
+Epoch 152, Time: 2.0455s, Loss: 0.10519794486264208, Correct: 50
+Epoch 153, Time: 2.0428s, Loss: 0.16591071143663713, Correct: 50
+Epoch 154, Time: 1.9764s, Loss: 0.16591718947182887, Correct: 50
+Epoch 155, Time: 1.9712s, Loss: 0.17103836557434168, Correct: 50
+Epoch 156, Time: 2.4107s, Loss: 0.14445915575986, Correct: 50
+Epoch 157, Time: 2.9900s, Loss: 0.025848866834400623, Correct: 50
+Epoch 158, Time: 3.4568s, Loss: 0.1503569221524555, Correct: 50
+Epoch 159, Time: 3.4771s, Loss: 0.2017391122708888, Correct: 50
+Epoch 160, Time: 3.0549s, Loss: 0.015984581981125998, Correct: 50
+Epoch 161, Time: 1.9711s, Loss: 0.176337718280359, Correct: 50
+Epoch 162, Time: 2.0108s, Loss: 0.09895015555237688, Correct: 50
+Epoch 163, Time: 1.9585s, Loss: 0.07640024499229688, Correct: 50
+Epoch 164, Time: 2.0263s, Loss: 0.08471758579935607, Correct: 50
+Epoch 165, Time: 2.3977s, Loss: 0.0706673001607234, Correct: 50
+Epoch 166, Time: 2.9780s, Loss: 0.03590610297356999, Correct: 50
+Epoch 167, Time: 3.3629s, Loss: 0.08446357848731975, Correct: 50
+Epoch 168, Time: 3.5533s, Loss: 0.08733798083688009, Correct: 50
+Epoch 169, Time: 2.9903s, Loss: 0.10568312419892589, Correct: 50
+Epoch 170, Time: 1.9526s, Loss: 0.09530833440560948, Correct: 50
+Epoch 171, Time: 2.0268s, Loss: 0.11769172261261399, Correct: 50
+Epoch 172, Time: 1.9308s, Loss: 0.3367011997265249, Correct: 50
+Epoch 173, Time: 1.9497s, Loss: 0.15776087860602112, Correct: 50
+Epoch 174, Time: 2.3427s, Loss: 0.06952715934272333, Correct: 50
+Epoch 175, Time: 3.1478s, Loss: 0.12328039662524762, Correct: 50
+Epoch 176, Time: 3.4365s, Loss: 0.21278591924810009, Correct: 50
+Epoch 177, Time: 3.3500s, Loss: 0.10321935624092107, Correct: 50
+Epoch 178, Time: 3.0736s, Loss: 0.23007803684270206, Correct: 50
+Epoch 179, Time: 1.9696s, Loss: 0.10639167289013025, Correct: 50
+Epoch 180, Time: 1.9583s, Loss: 0.11971171470743464, Correct: 50
+Epoch 181, Time: 2.0323s, Loss: 0.25623868635503544, Correct: 50
+Epoch 182, Time: 1.9705s, Loss: 0.15434966876755224, Correct: 50
+Epoch 183, Time: 2.3030s, Loss: 0.19966316112839777, Correct: 50
+Epoch 184, Time: 3.1197s, Loss: 0.10256598396935618, Correct: 50
+Epoch 185, Time: 3.4211s, Loss: 0.33784196327648874, Correct: 50
+Epoch 186, Time: 3.4167s, Loss: 0.07891923641953327, Correct: 50
+Epoch 187, Time: 3.1730s, Loss: 0.09636207544289356, Correct: 50
+Epoch 188, Time: 1.9783s, Loss: 0.008409094750866288, Correct: 50
+Epoch 189, Time: 1.9660s, Loss: 0.18242724500957172, Correct: 50
+Epoch 190, Time: 2.0415s, Loss: 0.09143963293664328, Correct: 50
+Epoch 191, Time: 1.9968s, Loss: 0.06794881317959844, Correct: 50
+Epoch 192, Time: 2.3520s, Loss: 0.06717610045478789, Correct: 50
+Epoch 193, Time: 3.1183s, Loss: 0.027833852748385242, Correct: 50
+Epoch 194, Time: 3.4061s, Loss: 0.1597064104361998, Correct: 50
+Epoch 195, Time: 3.3839s, Loss: 0.1954793025713968, Correct: 50
+Epoch 196, Time: 3.1280s, Loss: 0.19454237168238736, Correct: 50
+Epoch 197, Time: 1.9743s, Loss: 0.04295374438100195, Correct: 50
+Epoch 198, Time: 1.9641s, Loss: 0.14493073511828905, Correct: 50
+Epoch 199, Time: 2.0065s, Loss: 0.05364897948317389, Correct: 50
+Epoch 200, Time: 1.9450s, Loss: 0.12781884768073992, Correct: 50
+Epoch 201, Time: 2.3368s, Loss: 0.2593227761133365, Correct: 50
+Epoch 202, Time: 3.1552s, Loss: 0.14920581117020792, Correct: 50
+Epoch 203, Time: 3.3726s, Loss: 0.14188691168062348, Correct: 50
+Epoch 204, Time: 3.5202s, Loss: 0.04402642947573422, Correct: 50
+Epoch 205, Time: 3.3401s, Loss: 0.001502705915047851, Correct: 50
+Epoch 206, Time: 3.3888s, Loss: 0.09910837258721003, Correct: 50
+Epoch 207, Time: 3.3770s, Loss: 0.1000877738053766, Correct: 50
+Epoch 208, Time: 3.3331s, Loss: 0.10268614439787031, Correct: 50
+Epoch 209, Time: 3.1543s, Loss: 0.008324814728514625, Correct: 50
+Epoch 210, Time: 3.4422s, Loss: 0.08918359631257516, Correct: 50
+Epoch 211, Time: 3.3704s, Loss: 0.13570325713190395, Correct: 50
+Epoch 212, Time: 3.1042s, Loss: 0.3560780850294004, Correct: 50
+Epoch 213, Time: 1.9594s, Loss: 0.0920156678503197, Correct: 50
+Epoch 214, Time: 1.9906s, Loss: 0.19025468148305397, Correct: 50
+Epoch 215, Time: 2.0585s, Loss: 0.010933203303783187, Correct: 50
+Epoch 216, Time: 1.9630s, Loss: 0.03949332956992494, Correct: 50
+Epoch 217, Time: 2.3419s, Loss: 0.12542667405384328, Correct: 50
+Epoch 218, Time: 3.0561s, Loss: 0.23149883833981724, Correct: 50
+Epoch 219, Time: 3.3840s, Loss: 0.10917982523957902, Correct: 50
+Epoch 220, Time: 3.5657s, Loss: 0.09938325762004739, Correct: 50
+Epoch 221, Time: 2.9932s, Loss: 0.15446471403478834, Correct: 50
+Epoch 222, Time: 1.9579s, Loss: 0.15653008461103066, Correct: 50
+Epoch 223, Time: 1.9436s, Loss: 0.055979845295811556, Correct: 50
+Epoch 224, Time: 1.9988s, Loss: 0.19454164371424568, Correct: 50
+Epoch 225, Time: 1.9924s, Loss: 0.025843551584907327, Correct: 50
+Epoch 226, Time: 2.3982s, Loss: 0.10451936683732867, Correct: 50
+Epoch 227, Time: 3.0826s, Loss: 0.13563957274963945, Correct: 50
+Epoch 228, Time: 3.3915s, Loss: 0.004865483152632754, Correct: 50
+Epoch 229, Time: 3.4431s, Loss: 0.06865895204728796, Correct: 50
+Epoch 230, Time: 3.0555s, Loss: 0.1560571184792688, Correct: 50
+Epoch 231, Time: 1.9847s, Loss: 0.18766538316251383, Correct: 50
+Epoch 232, Time: 1.9269s, Loss: 0.0545678658602093, Correct: 50
+Epoch 233, Time: 1.9956s, Loss: 0.12875983131896243, Correct: 50
+Epoch 234, Time: 1.9530s, Loss: 0.18849040382040289, Correct: 50
+Epoch 235, Time: 2.3336s, Loss: 0.09783555335315801, Correct: 50
+Epoch 236, Time: 3.1057s, Loss: 0.03728014126433739, Correct: 50
+Epoch 237, Time: 3.3699s, Loss: 0.07546331436174723, Correct: 50
+Epoch 238, Time: 3.3704s, Loss: 0.06566527365354044, Correct: 50
+Epoch 239, Time: 3.1473s, Loss: 0.10408390050504492, Correct: 50
+Epoch 240, Time: 1.9785s, Loss: 0.14193549039392306, Correct: 50
+Epoch 241, Time: 2.0018s, Loss: 0.09166362413022097, Correct: 50
+Epoch 242, Time: 2.0156s, Loss: 0.06056449554502144, Correct: 50
+Epoch 243, Time: 1.9827s, Loss: 0.028762287830605603, Correct: 50
+Epoch 244, Time: 2.3912s, Loss: 0.026976730811669992, Correct: 50
+Epoch 245, Time: 3.0346s, Loss: 0.01836353263948056, Correct: 50
+Epoch 246, Time: 3.5311s, Loss: 0.14068563664560152, Correct: 50
+Epoch 247, Time: 3.4332s, Loss: 0.0898026377791765, Correct: 50
+Epoch 248, Time: 2.9330s, Loss: 0.054713863066476694, Correct: 50
+Epoch 249, Time: 2.0212s, Loss: 0.11824642823518078, Correct: 50
+Epoch 250, Time: 1.9647s, Loss: 0.008310964655843498, Correct: 50
+Epoch 251, Time: 1.9748s, Loss: 0.06390950808284296, Correct: 50
+Epoch 252, Time: 2.0245s, Loss: 0.1108341994577669, Correct: 50
+Epoch 253, Time: 2.6187s, Loss: 0.09036023637464191, Correct: 50
+Epoch 254, Time: 3.0550s, Loss: 0.006789487036372859, Correct: 50
+Epoch 255, Time: 3.5265s, Loss: 0.052358085016341586, Correct: 50
+Epoch 256, Time: 3.4364s, Loss: 0.015096703743741224, Correct: 50
+Epoch 257, Time: 2.9249s, Loss: 0.009210509473257165, Correct: 50
+Epoch 258, Time: 2.0172s, Loss: 0.08259786132300359, Correct: 50
+Epoch 259, Time: 1.9610s, Loss: 0.09757714702014252, Correct: 50
+Epoch 260, Time: 1.9572s, Loss: 0.035026366591817314, Correct: 50
+Epoch 261, Time: 2.0490s, Loss: 0.12830424076803107, Correct: 50
+Epoch 262, Time: 2.3693s, Loss: 0.15362674633260504, Correct: 50
+Epoch 263, Time: 3.0009s, Loss: 0.10249731595387082, Correct: 50
+Epoch 264, Time: 3.4979s, Loss: 0.028587486976296657, Correct: 50
+Epoch 265, Time: 3.4885s, Loss: 0.006746141917334905, Correct: 50
+Epoch 266, Time: 2.9268s, Loss: 0.1693976659742885, Correct: 50
+Epoch 267, Time: 2.0499s, Loss: 0.053038560294636744, Correct: 50
+Epoch 268, Time: 1.9904s, Loss: 0.041459777517080756, Correct: 50
+Epoch 269, Time: 1.9690s, Loss: 0.10627065826701582, Correct: 50
+Epoch 270, Time: 2.0063s, Loss: 0.005586681898204149, Correct: 50
+Epoch 271, Time: 2.4667s, Loss: 0.14061791048307257, Correct: 50
+Epoch 272, Time: 3.0551s, Loss: 0.08303544101304004, Correct: 50
+Epoch 273, Time: 3.5427s, Loss: 0.06655650152016541, Correct: 50
+Epoch 274, Time: 3.4077s, Loss: 0.060164566870700015, Correct: 50
+Epoch 275, Time: 2.8528s, Loss: 0.12839233525262436, Correct: 50
+Epoch 276, Time: 1.9701s, Loss: 0.04919326929806371, Correct: 50
+Epoch 277, Time: 1.9751s, Loss: 0.11727027199538737, Correct: 50
+Epoch 278, Time: 1.9546s, Loss: 0.04646123996187559, Correct: 50
+Epoch 279, Time: 2.0039s, Loss: 0.05599891485614329, Correct: 50
+Epoch 280, Time: 2.5220s, Loss: 0.0649214202021912, Correct: 50
+Epoch 281, Time: 3.0927s, Loss: 0.11162567915181934, Correct: 50
+Epoch 282, Time: 3.3701s, Loss: 0.04076024778820207, Correct: 50
+Epoch 283, Time: 3.4444s, Loss: 0.1196268017369409, Correct: 50
+Epoch 284, Time: 2.8667s, Loss: 0.04064820977911789, Correct: 50
+Epoch 285, Time: 1.9417s, Loss: 0.02923223448365035, Correct: 50
+Epoch 286, Time: 2.0487s, Loss: 0.10679926685841076, Correct: 50
+Epoch 287, Time: 1.9804s, Loss: 0.0958433732124181, Correct: 50
+Epoch 288, Time: 1.9547s, Loss: 0.022560301456417877, Correct: 50
+Epoch 289, Time: 2.6504s, Loss: 0.026762214311694024, Correct: 50
+Epoch 290, Time: 3.0531s, Loss: 0.09934230928339224, Correct: 50
+Epoch 291, Time: 3.4113s, Loss: 0.07639525075509745, Correct: 50
+Epoch 292, Time: 3.4968s, Loss: 0.04092609862878286, Correct: 50
+Epoch 293, Time: 2.7793s, Loss: 0.05022673563772736, Correct: 50
+Epoch 294, Time: 1.9772s, Loss: 0.11083256303728517, Correct: 50
+Epoch 295, Time: 2.0198s, Loss: 0.09820319533110722, Correct: 50
+Epoch 296, Time: 1.9854s, Loss: 0.0022443200852468987, Correct: 50
+Epoch 297, Time: 1.9480s, Loss: 0.004743026116432502, Correct: 50
+Epoch 298, Time: 2.5307s, Loss: 0.16927268599098053, Correct: 50
+Epoch 299, Time: 2.9983s, Loss: 0.04324764613316913, Correct: 50
+Epoch 300, Time: 3.4403s, Loss: 0.08487850225010445, Correct: 50
+Epoch 301, Time: 3.5109s, Loss: 0.0872090100994162, Correct: 50
+Epoch 302, Time: 2.8000s, Loss: 0.12119704627286343, Correct: 50
+Epoch 303, Time: 1.9692s, Loss: 0.12811063514688764, Correct: 50
+Epoch 304, Time: 2.0696s, Loss: 0.06539194313360103, Correct: 50
+Epoch 305, Time: 1.9787s, Loss: 0.10141366170333017, Correct: 50
+Epoch 306, Time: 2.0106s, Loss: 0.07505606952011645, Correct: 50
+Epoch 307, Time: 2.6543s, Loss: 0.07811582136507401, Correct: 50
+Epoch 308, Time: 3.1082s, Loss: 0.047524082548540944, Correct: 50
+Epoch 309, Time: 3.4280s, Loss: 0.028250330305679344, Correct: 50
+Epoch 310, Time: 3.4763s, Loss: 0.06639617516211435, Correct: 50
+Epoch 311, Time: 2.7560s, Loss: 0.005504269940147053, Correct: 50
+Epoch 312, Time: 1.9664s, Loss: 0.06572088740013103, Correct: 50
+Epoch 313, Time: 2.0062s, Loss: 0.0010905369778890733, Correct: 50
+Epoch 314, Time: 1.9527s, Loss: 0.07683587584090067, Correct: 50
+Epoch 315, Time: 1.9408s, Loss: 0.028542998677133776, Correct: 50
+Epoch 316, Time: 2.5119s, Loss: 0.06624407392883275, Correct: 50
+Epoch 317, Time: 3.2164s, Loss: 0.02875449670431943, Correct: 50
+Epoch 318, Time: 3.3765s, Loss: 0.11920462171471427, Correct: 50
+Epoch 319, Time: 3.3925s, Loss: 0.021721024378777817, Correct: 50
+Epoch 320, Time: 2.8621s, Loss: 0.0043317321078207285, Correct: 50
+Epoch 321, Time: 1.9548s, Loss: 0.10611277568235358, Correct: 50
+Epoch 322, Time: 1.9742s, Loss: 0.007443642457734255, Correct: 50
+Epoch 323, Time: 2.2633s, Loss: 0.023411233117519536, Correct: 50
+Epoch 324, Time: 1.9423s, Loss: 0.038359639729071644, Correct: 50
+Epoch 325, Time: 2.5845s, Loss: 0.011563006625807894, Correct: 50
+Epoch 326, Time: 3.2313s, Loss: 0.04575320640257907, Correct: 50
+Epoch 327, Time: 3.4267s, Loss: 0.06569227803217914, Correct: 50
+Epoch 328, Time: 3.3925s, Loss: 0.1642356676098672, Correct: 50
+Epoch 329, Time: 2.6350s, Loss: 0.12428054824956125, Correct: 50
+Epoch 330, Time: 1.9611s, Loss: 0.014237814407009759, Correct: 50
+Epoch 331, Time: 1.9618s, Loss: 0.03769006559846928, Correct: 50
+Epoch 332, Time: 2.0877s, Loss: 0.02736997468440907, Correct: 50
+Epoch 333, Time: 2.1047s, Loss: 0.065218203382812, Correct: 50
+Epoch 334, Time: 4.2270s, Loss: 0.07750110099323154, Correct: 50
+Epoch 335, Time: 4.1413s, Loss: 0.1805276209711234, Correct: 50
+Epoch 336, Time: 3.7311s, Loss: 0.08890293802138828, Correct: 50
+Epoch 337, Time: 3.6119s, Loss: 0.07859757716147753, Correct: 50
+Epoch 338, Time: 2.7830s, Loss: 0.06011690770624199, Correct: 50
+Epoch 339, Time: 1.9342s, Loss: 0.041443039968101385, Correct: 50
+Epoch 340, Time: 1.9746s, Loss: 0.03766984535958159, Correct: 50
+Epoch 341, Time: 2.0586s, Loss: 0.10575999105612208, Correct: 50
+Epoch 342, Time: 1.9849s, Loss: 0.1473205282545334, Correct: 50
+Epoch 343, Time: 2.6189s, Loss: 0.03207042653783028, Correct: 50
+Epoch 344, Time: 3.2251s, Loss: 0.06335764097427926, Correct: 50
+Epoch 345, Time: 3.4340s, Loss: 0.03691425007264778, Correct: 50
+Epoch 346, Time: 3.4577s, Loss: 0.0225959575406844, Correct: 50
+Epoch 347, Time: 2.7152s, Loss: 0.05890470983401358, Correct: 50
+Epoch 348, Time: 1.9596s, Loss: 0.06055472247748991, Correct: 50
+Epoch 349, Time: 1.9645s, Loss: 0.05859883205692772, Correct: 50
+Epoch 350, Time: 2.0183s, Loss: 0.10467760653911828, Correct: 50
+Epoch 351, Time: 1.9946s, Loss: 0.001843241647980355, Correct: 50
+Epoch 352, Time: 2.6517s, Loss: 0.06601969694135655, Correct: 50
+Epoch 353, Time: 3.1202s, Loss: 0.04111938298085996, Correct: 50
+Epoch 354, Time: 3.3522s, Loss: 0.04216969352216057, Correct: 50
+Epoch 355, Time: 3.4813s, Loss: 0.01919423314612838, Correct: 50
+Epoch 356, Time: 2.6029s, Loss: 0.019800167265461553, Correct: 50
+Epoch 357, Time: 2.0256s, Loss: 0.0706027457109528, Correct: 50
+Epoch 358, Time: 1.9468s, Loss: 0.13085686191297155, Correct: 50
+Epoch 359, Time: 1.9533s, Loss: 0.015989516554621566, Correct: 50
+Epoch 360, Time: 2.0072s, Loss: 0.11464541805688098, Correct: 50
+Epoch 361, Time: 2.5705s, Loss: 0.02043294959126781, Correct: 50
+Epoch 362, Time: 3.1038s, Loss: 0.108740097103497, Correct: 50
+Epoch 363, Time: 3.5278s, Loss: 0.016903447239280535, Correct: 50
+Epoch 364, Time: 3.4344s, Loss: 0.0020261013673949658, Correct: 50
+Epoch 365, Time: 2.6547s, Loss: 0.01684625471559364, Correct: 50
+Epoch 366, Time: 2.0539s, Loss: 0.0037397371356375398, Correct: 50
+Epoch 367, Time: 1.9815s, Loss: 0.0346667567313487, Correct: 50
+Epoch 368, Time: 1.9511s, Loss: 0.03356997779248026, Correct: 50
+Epoch 369, Time: 1.9961s, Loss: 0.11652959830636032, Correct: 50
+Epoch 370, Time: 2.5774s, Loss: 0.049975713749107725, Correct: 50
+Epoch 371, Time: 3.0935s, Loss: 0.0498896055590094, Correct: 50
+Epoch 372, Time: 3.4792s, Loss: 0.008219050661743655, Correct: 50
+Epoch 373, Time: 3.4094s, Loss: 0.01656665191803262, Correct: 50
+Epoch 374, Time: 2.6439s, Loss: 0.001755158443278644, Correct: 50
+Epoch 375, Time: 2.0046s, Loss: 0.2828643745974474, Correct: 50
+Epoch 376, Time: 1.9718s, Loss: 0.012419778951416317, Correct: 50
+Epoch 377, Time: 1.9761s, Loss: 0.0625391627512281, Correct: 50
+Epoch 378, Time: 2.0470s, Loss: 0.06354579020298592, Correct: 50
+Epoch 379, Time: 2.6585s, Loss: 0.03984353344796408, Correct: 50
+Epoch 380, Time: 3.0923s, Loss: 0.007976041916743767, Correct: 50
+Epoch 381, Time: 3.4847s, Loss: 0.05186878706111424, Correct: 50
+Epoch 382, Time: 3.4131s, Loss: 0.019743975019509877, Correct: 50
+Epoch 383, Time: 2.6733s, Loss: 0.07519203102095808, Correct: 50
+Epoch 384, Time: 2.0215s, Loss: 0.03738543941227751, Correct: 50
+Epoch 385, Time: 1.9625s, Loss: 0.05278434208863541, Correct: 50
+Epoch 386, Time: 1.9434s, Loss: 0.06283774160414667, Correct: 50
+Epoch 387, Time: 2.0694s, Loss: 0.05881480023806193, Correct: 50
+Epoch 388, Time: 2.6325s, Loss: 0.017183429181398268, Correct: 50
+Epoch 389, Time: 3.1132s, Loss: 0.1210815804143605, Correct: 50
+Epoch 390, Time: 3.5597s, Loss: 0.016079695582847886, Correct: 50
+Epoch 391, Time: 3.3852s, Loss: 0.06044748567013878, Correct: 50
+Epoch 392, Time: 2.5871s, Loss: 0.0025124873206264237, Correct: 50
+Epoch 393, Time: 1.9584s, Loss: 0.038006886571730326, Correct: 50
+Epoch 394, Time: 2.2991s, Loss: 0.043699144409607545, Correct: 50
+Epoch 395, Time: 1.9568s, Loss: 0.010267219727073357, Correct: 50
+Epoch 396, Time: 1.9560s, Loss: 0.05130955664008207, Correct: 50
+Epoch 397, Time: 2.8024s, Loss: 0.07065457981431056, Correct: 50
+Epoch 398, Time: 3.1982s, Loss: 0.016759896811223276, Correct: 50
+Epoch 399, Time: 3.3789s, Loss: 0.03084290412811217, Correct: 50
+Epoch 400, Time: 3.5360s, Loss: 0.03445846608465869, Correct: 50
+Epoch 401, Time: 2.5051s, Loss: 0.0404961830324399, Correct: 50
+Epoch 402, Time: 1.9763s, Loss: 0.018696870863119306, Correct: 50
+Epoch 403, Time: 2.0027s, Loss: 0.02575721087323302, Correct: 50
+Epoch 404, Time: 1.9632s, Loss: 0.03418556665638424, Correct: 50
+Epoch 405, Time: 1.9408s, Loss: 0.0034703004391703498, Correct: 50
+Epoch 406, Time: 2.8275s, Loss: 0.0913093661222704, Correct: 50
+Epoch 407, Time: 3.1722s, Loss: 0.04568447894793531, Correct: 50
+Epoch 408, Time: 3.4036s, Loss: 0.06900964142771765, Correct: 50
+Epoch 409, Time: 3.5103s, Loss: 0.09691615332194745, Correct: 50
+Epoch 410, Time: 2.4098s, Loss: 0.04344025966760177, Correct: 50
+Epoch 411, Time: 1.9644s, Loss: 0.014150396715034203, Correct: 50
+Epoch 412, Time: 2.0134s, Loss: 0.034952674904228806, Correct: 50
+Epoch 413, Time: 2.0119s, Loss: 0.0017704013694085014, Correct: 50
+Epoch 414, Time: 1.9325s, Loss: 0.08724691176071614, Correct: 50
+Epoch 415, Time: 2.7678s, Loss: 0.039168269078245777, Correct: 50
+Epoch 416, Time: 3.2058s, Loss: 0.06065509981832093, Correct: 50
+Epoch 417, Time: 3.3995s, Loss: 0.026236118879818245, Correct: 50
+Epoch 418, Time: 3.4934s, Loss: 0.01129651638531441, Correct: 50
+Epoch 419, Time: 2.3958s, Loss: 0.03867983631093998, Correct: 50
+Epoch 420, Time: 1.9624s, Loss: 0.04804787601837391, Correct: 50
+Epoch 421, Time: 2.0359s, Loss: 0.029998940928673126, Correct: 50
+Epoch 422, Time: 2.0598s, Loss: 0.0031365037100150052, Correct: 50
+Epoch 423, Time: 2.0137s, Loss: 0.03828431423159856, Correct: 50
+Epoch 424, Time: 2.8615s, Loss: 0.0016275800495897147, Correct: 50
+Epoch 425, Time: 3.2695s, Loss: 0.0703174793194766, Correct: 50
+Epoch 426, Time: 3.4642s, Loss: 0.044348505654687696, Correct: 50
+Epoch 427, Time: 3.5308s, Loss: 0.020352305487364858, Correct: 50
+Epoch 428, Time: 2.2419s, Loss: 0.016528018780649894, Correct: 50
+Epoch 429, Time: 1.9536s, Loss: 0.02541977751775943, Correct: 50
+Epoch 430, Time: 1.9466s, Loss: 0.05947636901029887, Correct: 50
+Epoch 431, Time: 1.9586s, Loss: 0.0570379866750528, Correct: 50
+Epoch 432, Time: 1.9593s, Loss: 0.024407090301779767, Correct: 50
+Epoch 433, Time: 2.8210s, Loss: 0.07283847871783188, Correct: 50
+Epoch 434, Time: 3.2905s, Loss: 0.07892899086599062, Correct: 50
+Epoch 435, Time: 3.3635s, Loss: 0.03437760018752242, Correct: 50
+Epoch 436, Time: 3.4175s, Loss: 0.0016307814798145923, Correct: 50
+Epoch 437, Time: 2.4292s, Loss: 0.01291372009476797, Correct: 50
+Epoch 438, Time: 2.0050s, Loss: 0.048967970276679436, Correct: 50
+Epoch 439, Time: 1.9621s, Loss: 0.0007122148188194248, Correct: 50
+Epoch 440, Time: 2.0207s, Loss: 0.08751422208007102, Correct: 50
+Epoch 441, Time: 1.9305s, Loss: 0.026660838281154904, Correct: 50
+Epoch 442, Time: 2.7557s, Loss: 0.025824038174036203, Correct: 50
+Epoch 443, Time: 3.3557s, Loss: 0.002168104619574964, Correct: 50
+Epoch 444, Time: 3.3725s, Loss: 0.002545603435754396, Correct: 50
+Epoch 445, Time: 3.3908s, Loss: 0.02099794055155475, Correct: 50
+Epoch 446, Time: 2.4253s, Loss: 0.06677975308043414, Correct: 50
+Epoch 447, Time: 1.9855s, Loss: 0.03557526634122113, Correct: 50
+Epoch 448, Time: 2.0612s, Loss: 0.025445723719490058, Correct: 50
+Epoch 449, Time: 2.0790s, Loss: 0.08189449803862899, Correct: 50
+Epoch 450, Time: 1.9591s, Loss: 0.055407358026039244, Correct: 50
+Epoch 451, Time: 2.8284s, Loss: 0.03532068615905127, Correct: 50
+Epoch 452, Time: 3.3156s, Loss: 0.029881615884982792, Correct: 50
+Epoch 453, Time: 3.3981s, Loss: 0.03228629413773747, Correct: 50
+Epoch 454, Time: 3.4180s, Loss: 0.07087408518445043, Correct: 50
+Epoch 455, Time: 2.3096s, Loss: 0.0928239255362803, Correct: 50
+Epoch 456, Time: 1.9809s, Loss: 0.056712746418180256, Correct: 50
+Epoch 457, Time: 1.9416s, Loss: 0.01714585028023468, Correct: 50
+Epoch 458, Time: 2.0485s, Loss: 0.04448217037373355, Correct: 50
+Epoch 459, Time: 1.9791s, Loss: 0.012142731592881656, Correct: 50
+Epoch 460, Time: 2.9285s, Loss: 0.043509894689533396, Correct: 50
+Epoch 461, Time: 3.3317s, Loss: 0.00217712785518715, Correct: 50
+Epoch 462, Time: 3.4599s, Loss: 0.03906734439101848, Correct: 50
+Epoch 463, Time: 3.6643s, Loss: 0.0023367026163802866, Correct: 50
+Epoch 464, Time: 3.4738s, Loss: 0.049395883649316165, Correct: 50
+Epoch 465, Time: 3.3692s, Loss: 0.034432053270635234, Correct: 50
+Epoch 466, Time: 2.7006s, Loss: 0.07728095681941802, Correct: 50
+Epoch 467, Time: 2.7795s, Loss: 0.05173460137656317, Correct: 50
+Epoch 468, Time: 3.2045s, Loss: 0.03924012450478458, Correct: 50
+Epoch 469, Time: 3.4321s, Loss: 0.07111916172452355, Correct: 50
+Epoch 470, Time: 3.3871s, Loss: 0.06794601093160309, Correct: 50
+Epoch 471, Time: 2.5641s, Loss: 0.054186123587925863, Correct: 50
+Epoch 472, Time: 1.9543s, Loss: 0.016058942197069492, Correct: 50
+Epoch 473, Time: 1.9530s, Loss: 0.06229050296839834, Correct: 50
+Epoch 474, Time: 2.0346s, Loss: 0.013668199031327757, Correct: 50
+Epoch 475, Time: 1.9573s, Loss: 0.07174317638039805, Correct: 50
+Epoch 476, Time: 2.7052s, Loss: 0.0007384131454614238, Correct: 50
+Epoch 477, Time: 3.3020s, Loss: 0.0469947060333767, Correct: 50
+Epoch 478, Time: 3.3816s, Loss: 0.03172109397030725, Correct: 50
+Epoch 479, Time: 3.4126s, Loss: 0.06817503362587496, Correct: 50
+Epoch 480, Time: 2.5498s, Loss: 0.038659326530195916, Correct: 50
+Epoch 481, Time: 1.9718s, Loss: 0.08349353245819324, Correct: 50
+Epoch 482, Time: 1.9719s, Loss: 0.029913126869758354, Correct: 50
+Epoch 483, Time: 2.0456s, Loss: 0.026460902514532033, Correct: 50
+Epoch 484, Time: 1.9945s, Loss: 0.07683652561586715, Correct: 50
+Epoch 485, Time: 2.7653s, Loss: 0.017814728021477908, Correct: 50
+Epoch 486, Time: 3.2696s, Loss: 0.0006667939526965398, Correct: 50
+Epoch 487, Time: 3.3735s, Loss: 0.01737947501956863, Correct: 50
+Epoch 488, Time: 3.4158s, Loss: 0.06823098173905998, Correct: 50
+Epoch 489, Time: 2.4739s, Loss: 0.03134440454027054, Correct: 50
+Epoch 490, Time: 1.9466s, Loss: 0.08034292624897166, Correct: 50
+Epoch 491, Time: 1.9509s, Loss: 0.019868657692090654, Correct: 50
+Epoch 492, Time: 2.1040s, Loss: 0.027177305833312043, Correct: 50
+Epoch 493, Time: 1.9724s, Loss: 0.013817298974661314, Correct: 50
+Epoch 494, Time: 2.7359s, Loss: 0.06860968696148118, Correct: 50
+Epoch 495, Time: 3.2781s, Loss: 0.061768424156368254, Correct: 50
+Epoch 496, Time: 3.3689s, Loss: 0.012396912833998562, Correct: 50
+Epoch 497, Time: 3.4073s, Loss: 0.040268409961133664, Correct: 50
+Epoch 498, Time: 2.4441s, Loss: 0.0363845563155391, Correct: 50
+Epoch 499, Time: 1.9755s, Loss: 0.0010973216600203162, Correct: 50
+Average time per epoch: 2.6444s (for 500 epochs)
