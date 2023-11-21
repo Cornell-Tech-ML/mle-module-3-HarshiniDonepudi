@@ -10,7 +10,7 @@ from .tensor_data import (
     broadcast_index,
     index_to_position,
     shape_broadcast,
-    to_index
+    to_index,
 )
 from .tensor_ops import MapProto, TensorOps
 
@@ -212,7 +212,9 @@ def tensor_zip(
         b_strides: Strides,
     ) -> None:
         # TODO: Implement for Task 3.1.
-        if list(a_strides) == list(b_strides) == list(out_strides) and list(a_shape) == list(b_shape) == list(out_shape):
+        if list(a_strides) == list(b_strides) == list(out_strides) and list(
+            a_shape
+        ) == list(b_shape) == list(out_shape):
             for i in prange(len(out)):
                 out[i] = fn(a_storage[i], b_storage[i])
         else:
@@ -277,8 +279,6 @@ def tensor_reduce(
     return njit(parallel=True)(_reduce)  # type: ignore
     # raise NotImplementedError("Need to implement for Task 3.1")
 
-    return njit(parallel=True)(_reduce)  # type: ignore
-
 
 def _tensor_matrix_multiply(
     out: Storage,
@@ -338,7 +338,6 @@ def _tensor_matrix_multiply(
     for i in prange(0, out_shape[0]):  # Outer loop in parallel
         for j in range(0, out_shape[1]):  # Loop for rows
             for k in range(0, out_shape[2]):  # Loop for rows
-
                 temp = 0.0
                 l = i * a_batch_stride + j * a_strides[1]  # row strides
                 m = i * b_batch_stride + k * b_strides[2]  # col strides
