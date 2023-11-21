@@ -454,37 +454,39 @@ def _tensor_matrix_multiply(
     #    b) Copy into shared memory for b matrix
     #    c) Compute the dot produce for position c[i, j]
     # TODO: Implement for Task 3.4.
-    acc = 0.0
-    for s in range(0, MAX_BLOCKS, BLOCK_DIM):  # Loops over each block
-        pj_off = s + pj  # Defines local index for threadIdX
-        pi_off = s + pi  # Defines local index for threadIdY
+    accumalated_sum = 0.0
+    for block_offset in range(0, MAX_BLOCKS, BLOCK_DIM):  # iterate over each block
+        local_j_offset = block_offset + pj  # offset of local j index 
+        local_i_offset = block_offset + pi  # offset of local i index 
 
         # a) Copy into shared memory for a matrix.
-        if i < a_shape[1] and pj_off < MAX_BLOCKS:
-            a_store = (
-                a_batch_stride * batch + a_strides[1] * i + a_strides[2] * pj_off
+        # Load elements of tensor 'a' into shared memory
+        if i < a_shape[1] and local_j_offset < MAX_BLOCKS:
+            a_index = (
+                a_batch_stride * batch + a_strides[1] * i + a_strides[2] * local_j_offset
             )  # Getting position of a_storage
-            a_shared[pi, pj] = a_storage[a_store]  # Copying into shared memory
+            a_shared[pi, pj] = a_storage[a_index]  # Copying into shared memory
 
         # b) Copy into shared memory for b matrix
-        if pi_off < b_shape[1] and j < b_shape[2]:
-            b_store = (
-                b_batch_stride * batch + b_strides[1] * pi_off + b_strides[2] * j
+        # Load elements of tensor 'a' into shared memory
+        if local_i_offset < b_shape[1] and j < b_shape[2]:
+            b_index = (
+                b_batch_stride * batch + b_strides[1] * local_i_offset + b_strides[2] * j
             )  # Getting position of a_storage
-            b_shared[pi, pj] = b_storage[b_store]  # Copying into shared memory
+            b_shared[pi, pj] = b_storage[b_index]  # Copying into shared memory
 
-        cuda.syncthreads()  # Syncs the threads, NOTE we only need one cuda.syncthreads() call
+        cuda.syncthreads()  # Synchronize threads in the block to ensure shared memory is fully populated
 
-        # Finds the dot product and sums over the relevant row and column for a and b respectively
+        # Compute dot product for elements in the shared block and sums over the relevant row and column for a and b respectively
         for k in range(BLOCK_DIM):
-            if (k + s) < MAX_BLOCKS:
-                acc += a_shared[pi, k] * b_shared[k, pj]
+            if (k + block_offset) < MAX_BLOCKS:
+                accumalated_sum += a_shared[pi, k] * b_shared[k, pj]
 
     # c) Compute the dot produce for position c[i, j]
-    # Finds the correct position for each
+    # Store the computed value in the output tensor
     if i < out_shape[1] and j < out_shape[2]:
         out_loc = out_strides[0] * batch + out_strides[1] * i + out_strides[2] * j
-        out[out_loc] = acc
+        out[out_loc] = accumalated_sum
     # raise NotImplementedError("Need to implement for Task 3.4")
 
 
