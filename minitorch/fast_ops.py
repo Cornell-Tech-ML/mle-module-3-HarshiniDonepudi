@@ -322,37 +322,28 @@ def _tensor_matrix_multiply(
         None : Fills in `out`
     """
     assert a_shape[-1] == b_shape[-2]
-    a_batch_stride = a_strides[0] if a_shape[0] > 1 else 0
-    b_batch_stride = b_strides[0] if b_shape[0] > 1 else 0
+    stride_batch_a = a_strides[0] if a_shape[0] > 1 else 0
+    stride_batch_b = b_strides[0] if b_shape[0] > 1 else 0
 
-    # TODO: Implement for Task 3.2.
-    row_a = a_strides[2]
+    stride_row_a = a_strides[2]
+    stride_col_b = b_strides[1]
+    sum_limit = a_shape[-1]
 
-    # Want to get columns of B assuming a 3D matrix
-    col_b = b_strides[1]
+    # Main computation loops
+    for idx in prange(0, out_shape[0]):  # Parallel loop for outer dimension
+        for row in range(0, out_shape[1]):
+            for col in range(0, out_shape[2]):
+                sum_temp = 0.0
+                a_index = idx * stride_batch_a + row * a_strides[1]
+                b_index = idx * stride_batch_b + col * b_strides[2]
 
-    # Defines the blocks per grid
-    C = a_shape[-1]
+                for _ in range(0, sum_limit):
+                    sum_temp += a_storage[a_index] * b_storage[b_index]
+                    a_index += stride_row_a
+                    b_index += stride_col_b
 
-    # There are no index buffers or function calls
-    for i in prange(0, out_shape[0]):  # Outer loop in parallel
-        for j in range(0, out_shape[1]):  # Loop for rows
-            for k in range(0, out_shape[2]):  # Loop for rows
-                temp = 0.0
-                l = i * a_batch_stride + j * a_strides[1]  # row strides
-                m = i * b_batch_stride + k * b_strides[2]  # col strides
-                for _ in range(0, C):  # Summation loop with
-                    temp += (
-                        a_storage[l] * b_storage[m]
-                    )  # Only one multiply in innermost loop
-                    l += row_a  # Update l
-                    m += col_b  # Update m
-
-                out[
-                    i * out_strides[0] + j * out_strides[1] + k * out_strides[2]
-                ] = temp  # Make out for i,j and k equal to our temporary storage variable
-
-    # raise NotImplementedError("Need to implement for Task 3.2")
+                result_index = idx * out_strides[0] + row * out_strides[1] + col * out_strides[2]
+                out[result_index] = sum_temp
 
 
 tensor_matrix_multiply = njit(parallel=True, fastmath=True)(_tensor_matrix_multiply)
