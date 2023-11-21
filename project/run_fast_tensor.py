@@ -10,7 +10,10 @@ if numba.cuda.is_available():
 
 
 def default_log_fn(epoch, total_loss, correct, losses, epoch_time):
-    print(f"Epoch {epoch}, Time: {epoch_time:.4f}s, Loss: {total_loss}, Correct: {correct}")
+    print(
+        f"Epoch {epoch}, Time: {epoch_time:.4f}s, Loss: {total_loss}, Correct: {correct}"
+    )
+
 
 def RParam(*shape, backend):
     r = minitorch.rand(shape, backend=backend) - 0.5
@@ -31,6 +34,7 @@ class Network(minitorch.Module):
         l = self.layer2.forward(l).relu()
         return self.layer3.forward(l).sigmoid()
 
+
 class Linear(minitorch.Module):
     def __init__(self, in_size, out_size, backend):
         super().__init__()
@@ -44,6 +48,7 @@ class Linear(minitorch.Module):
         batch = x @ self.weights.value
         bias = self.bias.value
         return batch + bias.view(1, bias.shape[0])
+
 
 class FastTrain:
     def __init__(self, hidden_layers, backend=FastTensorBackend):
@@ -93,7 +98,10 @@ class FastTrain:
             log_fn(epoch, total_loss, correct, losses, epoch_duration)
 
         average_epoch_time = total_epoch_time / max_epochs
-        print(f"Average time per epoch: {average_epoch_time:.4f}s (for {max_epochs} epochs)")
+        print(
+            f"Average time per epoch: {average_epoch_time:.4f}s (for {max_epochs} epochs)"
+        )
+
 
 if __name__ == "__main__":
     import argparse
@@ -118,10 +126,10 @@ if __name__ == "__main__":
         data = minitorch.datasets["Split"](PTS)
     elif args.DATASET == "diag":
         data = minitorch.datasets["Diag"](PTS)
-    
 
     HIDDEN = int(args.HIDDEN)
     RATE = args.RATE
 
-    FastTrain(HIDDEN, backend=FastTensorBackend if args.BACKEND != "gpu" else GPUBackend
+    FastTrain(
+        HIDDEN, backend=FastTensorBackend if args.BACKEND != "gpu" else GPUBackend
     ).train(data, RATE)
