@@ -43,6 +43,7 @@ The files that will be synced are:
 ### Simple - 100
 
 file training_logs/gpu_100_simple.txt
+https://github.com/Cornell-Tech-ML/mle-module-3-HarshiniDonepudi/blob/master/training_logs/cpu_100_diag.txt
 
 ![alt text](https://github.com/Cornell-Tech-ML/mle-module-3-HarshiniDonepudi/blob/master/images/gpu_100_simple.png)
 
