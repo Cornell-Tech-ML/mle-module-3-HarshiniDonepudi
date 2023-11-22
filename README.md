@@ -43,7 +43,8 @@ The files that will be synced are:
 ### Simple - 100
 
 file training_logs/gpu_100_simple.txt
-https://github.com/Cornell-Tech-ML/mle-module-3-HarshiniDonepudi/blob/master/training_logs/cpu_100_diag.txt
+
+https://github.com/Cornell-Tech-ML/mle-module-3-HarshiniDonepudi/blob/master/training_logs/gpu_100_simple.txt
 
 ![alt text](https://github.com/Cornell-Tech-ML/mle-module-3-HarshiniDonepudi/blob/master/images/gpu_100_simple.png)
 
@@ -52,11 +53,15 @@ https://github.com/Cornell-Tech-ML/mle-module-3-HarshiniDonepudi/blob/master/tra
 
 file training_logs/gpu_100_split.txt
 
+https://github.com/Cornell-Tech-ML/mle-module-3-HarshiniDonepudi/blob/master/training_logs/gpu_100_split.txt
+
 ![alt text](https://github.com/Cornell-Tech-ML/mle-module-3-HarshiniDonepudi/blob/master/images/gpu_100_split.png)
 
 ### Diag - 100
 
 file training_logs/gpu_100_diag.txt
+
+https://github.com/Cornell-Tech-ML/mle-module-3-HarshiniDonepudi/blob/master/training_logs/gpu_100_diag.txt
 
 ![alt text](https://github.com/Cornell-Tech-ML/mle-module-3-HarshiniDonepudi/blob/master/images/gpu_100_diag.png)
 
@@ -64,11 +69,15 @@ file training_logs/gpu_100_diag.txt
 
 file training_logs/gpu_100_xor.txt
 
+https://github.com/Cornell-Tech-ML/mle-module-3-HarshiniDonepudi/blob/master/training_logs/gpu_100_xor.txt
+
 ![alt text](https://github.com/Cornell-Tech-ML/mle-module-3-HarshiniDonepudi/blob/master/images/gpu_100_xor.png)
 
 ### Large
 
 file training_logs/gpu_large.txt
+
+https://github.com/Cornell-Tech-ML/mle-module-3-HarshiniDonepudi/blob/master/training_logs/gpu_large.txt
 
 ![alt text](https://github.com/Cornell-Tech-ML/mle-module-3-HarshiniDonepudi/blob/master/images/gpu_large.png)
 
@@ -79,11 +88,15 @@ file training_logs/gpu_large.txt
 
 file training_logs/cpu_100_simple.txt
 
+https://github.com/Cornell-Tech-ML/mle-module-3-HarshiniDonepudi/blob/master/training_logs/cpu_100_simple.txt
+
 ![alt text](https://github.com/Cornell-Tech-ML/mle-module-3-HarshiniDonepudi/blob/master/images/cpu_simple_100.png)
 
 ### Split - 100
 
 file training_logs/cpu_100_split.txt
+
+https://github.com/Cornell-Tech-ML/mle-module-3-HarshiniDonepudi/blob/master/training_logs/cpu_100_split.txt
 
 ![alt text](https://github.com/Cornell-Tech-ML/mle-module-3-HarshiniDonepudi/blob/master/images/cpu_split_100.png)
 
@@ -91,11 +104,15 @@ file training_logs/cpu_100_split.txt
 
 file training_logs/cpu_100_diag.txt
 
+https://github.com/Cornell-Tech-ML/mle-module-3-HarshiniDonepudi/blob/master/training_logs/cpu_100_diag.txt
+
 ![alt text](https://github.com/Cornell-Tech-ML/mle-module-3-HarshiniDonepudi/blob/master/images/cpu_100_diag.png)
 
 ### Xor - 100
 
 file training_logs/cpu_100_xor.txt
+
+https://github.com/Cornell-Tech-ML/mle-module-3-HarshiniDonepudi/blob/master/training_logs/cpu_100_xor.txt
 
 ![alt text](https://github.com/Cornell-Tech-ML/mle-module-3-HarshiniDonepudi/blob/master/images/cpu_100_xor.png)
 
@@ -103,12 +120,16 @@ file training_logs/cpu_100_xor.txt
 
 file training_logs/cpu_large.txt
 
+https://github.com/Cornell-Tech-ML/mle-module-3-HarshiniDonepudi/blob/master/training_logs/cpu_large.txt
+
 ![alt text](https://github.com/Cornell-Tech-ML/mle-module-3-HarshiniDonepudi/blob/master/images/cpu_large.png)
 
 
 ### Parallelizarion Check
 
 file: parallel_check.txt 
+
+https://github.com/Cornell-Tech-ML/mle-module-3-HarshiniDonepudi/blob/master/parallel_check.txt
 
 
 
