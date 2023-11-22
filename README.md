@@ -78,13 +78,13 @@ file training_logs/gpu_large.txt
 
 file training_logs/cpu_100_simple.txt
 
-![alt text](https://github.com/Cornell-Tech-ML/mle-module-3-HarshiniDonepudi/blob/master/images/cpu_100_simple.png)
+![alt text](https://github.com/Cornell-Tech-ML/mle-module-3-HarshiniDonepudi/blob/master/images/cpu_simple_100.png)
 
 ### Split - 100
 
 file training_logs/cpu_100_split.txt
 
-![alt text](https://github.com/Cornell-Tech-ML/mle-module-3-HarshiniDonepudi/blob/master/images/cpu_100_split.png)
+![alt text](https://github.com/Cornell-Tech-ML/mle-module-3-HarshiniDonepudi/blob/master/images/cpu_split_100.png)
 
 ### Diag - 100
 
